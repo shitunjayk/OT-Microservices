@@ -27,8 +27,8 @@ services:
     ports:
       - 5601:5601
     environment:
-      ELASTICSEARCH_HOSTS: '["http://empms-es:9200"]'
-      ELASTICSEARCH_SERVICEACCOUNTTOKEN: AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYToxa0pGUEs3WVRINmQwaG5JZ29NN21n
+       ELASTICSEARCH_HOSTS: '["http://empms-es:9200"]'
+       ELASTICSEARCH_SERVICEACCOUNTTOKEN: AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYToxa0pGUEs3WVRINmQwaG5JZ29NN21n
     depends_on:
       - empms-es
     networks:
